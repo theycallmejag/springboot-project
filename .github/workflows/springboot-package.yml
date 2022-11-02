@@ -24,4 +24,4 @@ jobs:
       - name: build container and deploy
         run: docker-compose up -d
       - name: push container to docker hub 
-        run: docker push noizebomb/springboot-app-2:1.0.4
+        run: docker push theycallmejag/dockerhub-project
