@@ -4,7 +4,7 @@ RUN mkdir /opt/app
 
 WORKDIR /opt/app
 
-ADD ./example.smallest-0.0.3-SNAPSHOT.jar /opt/app/example.jar
+ADD ./target/example.smallest-0.0.3-SNAPSHOT.jar /opt/app/example.jar
 
 EXPOSE 8080
 
